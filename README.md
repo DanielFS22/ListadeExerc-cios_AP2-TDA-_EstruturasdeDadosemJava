@@ -1,9 +1,26 @@
-# ListadeExerc-cios_AP2-TDA-_EstruturasdeDadosemJava
+# 🧠 Estruturas de Dados em Java (AP2)
 
-🧠 Projeto: Estruturas de Dados em Java (AP2)
+[![Java](https://img.shields.io/badge/Java-17+-orange?logo=java\&logoColor=white)](https://www.java.com/)
+[![Status](https://img.shields.io/badge/Status-Concluído-success)]()
+[![IDE](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-blue?logo=intellijidea)]()
 
-Este repositório contém uma coleção de exercícios desenvolvidos para a disciplina Algoritmos e Estrutura de Dados, com foco em implementar estruturas lineares clássicas (Lista, Pilha e Fila) em Java e testar seus comportamentos através de programas interativos.
+> Projeto acadêmico da disciplina **Algoritmos e Estrutura de Dados**
+> Desenvolvido por **Daniel Fernandes Santos** — 3º semestre de **Ciência da Computação**
 
+---
+
+## 📘 Sobre o Projeto
+
+Este repositório apresenta implementações das principais **estruturas de dados lineares** em Java:
+**Lista**, **Pilha** e **Fila** — todas desenvolvidas com base em **vetores fixos** e testadas através de **programas interativos**.
+
+O objetivo é **fortalecer a lógica de programação e a abstração de dados**, simulando o comportamento real das estruturas clássicas utilizadas na Computação.
+
+---
+
+## 📂 Estrutura de Pastas
+
+```
 exercicios_AP2_Algoritmos_e_Estrutura_de_Dados/
 │
 ├── src/
@@ -16,99 +33,108 @@ exercicios_AP2_Algoritmos_e_Estrutura_de_Dados/
 │       ├── Exercicio1.java # Teste da Lista
 │       ├── Exercicio2.java # Teste da Pilha
 │       ├── Exercicio3.java # Teste da Fila
-│       ├── Exercicio4.java # Teste conjunto com o método mostrar()
+│       ├── Exercicio4.java # Adiciona o método mostrar() em todas as TDAs
 │       └── Exercicio5.java # Menu interativo para todas as estruturas
+```
 
-🧩 Descrição dos Exercícios
-Exercício 1 — Lista
+---
 
-Implementa uma classe Lista com:
+## 🧩 Exercícios Desenvolvidos
 
-Inserção de elementos inteiros;
+### **Exercício 1 — Lista**
 
-Exibição do estado atual através do método mostrar().
+📋 Implementa uma classe `Lista` com:
 
-Exercício 2 — Pilha
+* Inserção de elementos inteiros;
+* Exibição do estado atual através do método `mostrar()`.
 
-Implementa uma classe Pilha que permite:
+---
 
-Empilhar e desempilhar elementos;
+### **Exercício 2 — Pilha**
 
-Verificar se está cheia ou vazia;
+🧱 Implementa uma classe `Pilha` com:
 
-Exibir o estado atual com mostrar().
+* Métodos `empilhar()` e `desempilhar()`;
+* Verificação de cheia/vazia;
+* Método `mostrar()` para exibir o estado atual.
 
-Exercício 3 — Fila
+---
 
-Implementa uma classe Fila utilizando um vetor circular de até 5 posições, com:
+### **Exercício 3 — Fila**
 
-Métodos enfileirar() e desenfileirar();
+🚦 Implementa uma classe `Fila` utilizando **vetor circular** com:
 
-Exibição do conteúdo com mostrar().
+* Métodos `enfileirar()` e `desenfileirar()`;
+* Exibição do conteúdo através de `mostrar()`.
 
-Exercício 4 — Método mostrar()
+---
 
-Adiciona o método mostrar() em todas as TDAs, exibindo claramente o estado interno de cada estrutura.
+### **Exercício 4 — Método mostrar()**
 
-Exercício 5 — Menu Interativo
+✨ Adiciona o método `mostrar()` em **todas as TDAs**, exibindo claramente o estado interno de cada estrutura.
 
-Cria uma classe Principal com um menu interativo que permite:
+---
 
-Escolher qual estrutura (Lista, Pilha ou Fila) testar;
+### **Exercício 5 — Menu Interativo**
 
-Inserir, remover e exibir elementos em tempo real.
+🧩 Cria uma classe `Principal` com um **menu de opções** que permite:
 
-⚙️ Como Executar
+* Escolher qual estrutura testar (Lista, Pilha ou Fila);
+* Inserir, remover e exibir elementos diretamente pelo console.
 
-Abra o projeto em uma IDE como IntelliJ IDEA, Eclipse ou VS Code com o plugin de Java.
+---
 
-Certifique-se de manter a estrutura de pacotes:
+## ⚙️ Como Executar
 
-As classes Lista, Pilha e Fila devem estar no pacote Estruturas.
+1. **Abra o projeto** em sua IDE Java preferida (recomendado: IntelliJ IDEA).
+2. **Mantenha a estrutura de pacotes**:
 
-Os arquivos ExercicioX.java devem estar no pacote Exercicios.
+   * As classes `Lista`, `Pilha` e `Fila` devem ficar em `src/Estruturas/`.
+   * Os arquivos `ExercicioX.java` ficam em `src/Exercicios/`.
+3. **Execute o arquivo desejado**:
 
-Execute o arquivo desejado:
+   * `Exercicio1` → Teste da Lista
+   * `Exercicio2` → Teste da Pilha
+   * `Exercicio3` → Teste da Fila
+   * `Exercicio4` → Demonstração do método `mostrar()`
+   * `Exercicio5` → Menu interativo completo
 
-Exercicio1 → Teste da Lista
+---
 
-Exercicio2 → Teste da Pilha
+## 🧮 Conceitos Trabalhados
 
-Exercicio3 → Teste da Fila
+* Estruturas de Dados Lineares
+* Manipulação de Vetores e Índices Circulares
+* Paradigma de Programação Orientada a Objetos
+* Encapsulamento e abstração
+* Simulação de estruturas LIFO e FIFO
+* Interação via console
 
-Exercicio4 → Demonstração dos métodos mostrar()
+---
 
-Exercicio5 → Menu interativo completo
+## 💡 Tecnologias Utilizadas
 
-💡 Tecnologias Utilizadas
+| Tecnologia           | Finalidade                  |
+| -------------------- | --------------------------- |
+| **Java 17+**         | Linguagem principal         |
+| **IntelliJ IDEA**    | Ambiente de desenvolvimento |
+| **Paradigma OO**     | Organização das estruturas  |
+| **Terminal/Console** | Interação com o usuário     |
 
-Linguagem: Java
+---
 
-Versão mínima recomendada: Java 17
+## 👨‍💻 Autor
 
-Paradigma: Programação orientada a objetos
+**Daniel Fernandes Santos**
+🎓 Estudante de **Ciência da Computação (3º semestre)**
+💻 Foco em **desenvolvimento Backend (Python e Java)**
+⚡ Apaixonado por **lógica, tecnologia e aprendizado contínuo**
 
-IDE sugerida: IntelliJ IDEA
+📫 [LinkedIn](https://www.linkedin.com) *(adicione seu link aqui se quiser)*
 
-🧮 Conceitos Envolvidos
+---
 
-Estruturas de Dados Lineares
+## 🏁 Objetivo do Projeto
 
-Vetores e índices circulares
-
-Encapsulamento e abstração
-
-Manipulação de coleções fixas
-
-Menus interativos no console
-
-👨‍💻 Autor
-
-Daniel Fernandes Santos
-Estudante de Ciência da Computação (3º semestre)
-Focado em desenvolvimento Backend com Python e Java
-Apaixonado por tecnologia, lógica e aprendizado contínuo.
-
-🏁 Objetivo do Projeto
-
-Consolidar o entendimento de Listas, Pilhas e Filas através da implementação manual e reforçar a lógica de manipulação de dados em estruturas sequenciais — base essencial para estudos de algoritmos e engenharia de software.
+Consolidar o entendimento das **estruturas de dados fundamentais** e demonstrar sua aplicação prática.
+Cada implementação busca simular comportamentos reais e reforçar o raciocínio lógico usado em **engenharia de software** e **desenvolvimento backend**.
